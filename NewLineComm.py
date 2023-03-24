@@ -49,7 +49,7 @@ tryAll(encrypted_messages)
 encrypted_messages.pop(0)
 encrypted_messages.pop(3)
 #print(encrypted_messages)
-responseString = encrypted_messages[0] + '\n ' + encrypted_messages[1] + '\n ' + encrypted_messages[2]
+responseString = encrypted_messages[0] + '\n' + encrypted_messages[1] + '\n' + encrypted_messages[2]
 print(responseString)
 response = send_decrypted_messages(host, port, responseString)
 print(response)
